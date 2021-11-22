@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepetitionLabb1b", "RepetitionLabb1b\RepetitionLabb1b.csproj", "{1A9056CA-42FA-4A62-8449-3957F1B598EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD", "TDD\TDD.csproj", "{BFF27C7E-E95F-440B-80AD-288E352E05F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD.Tests", "TDD.Tests\TDD.Tests.csproj", "{03CC9E4E-1127-492F-9F9B-04D57010544A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A9056CA-42FA-4A62-8449-3957F1B598EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A9056CA-42FA-4A62-8449-3957F1B598EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A9056CA-42FA-4A62-8449-3957F1B598EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A9056CA-42FA-4A62-8449-3957F1B598EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFF27C7E-E95F-440B-80AD-288E352E05F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFF27C7E-E95F-440B-80AD-288E352E05F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFF27C7E-E95F-440B-80AD-288E352E05F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFF27C7E-E95F-440B-80AD-288E352E05F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03CC9E4E-1127-492F-9F9B-04D57010544A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03CC9E4E-1127-492F-9F9B-04D57010544A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03CC9E4E-1127-492F-9F9B-04D57010544A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03CC9E4E-1127-492F-9F9B-04D57010544A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F87EDDB-E423-4EDB-A0AF-306DF94C65F3}
+	EndGlobalSection
+EndGlobal
