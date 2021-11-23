@@ -6,19 +6,10 @@ using System.Threading.Tasks;
 
 namespace RepetitionLabb1b.Finished
 {
-    public class StringReverser
+    public class StringHelpers
     {
-        private readonly IGetStringReader _stringReader;
-
-        public StringReverser(IGetStringReader stringReader)
+        public string Reverse(string stringToReverse)
         {
-            _stringReader = stringReader;
-        }
-
-        public string Reverse()
-        {
-            string stringToReverse = _stringReader.GetString();
-
             if (stringToReverse is null)
                 throw new ArgumentNullException();
 
