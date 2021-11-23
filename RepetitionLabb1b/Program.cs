@@ -9,7 +9,7 @@ using RepetitionLabb1b.Start;
 
 FileDataReader fileDataReader = new FileDataReader();
 
-string reversedString = fileDataReader.Run();
+string reversedString = fileDataReader.ReadStringFromFile();
 
 Console.WriteLine(reversedString);
 

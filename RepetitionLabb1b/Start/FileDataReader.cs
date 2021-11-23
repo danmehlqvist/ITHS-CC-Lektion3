@@ -4,13 +4,7 @@
     {
         private const string FILEPATH = @"C:\Solutions\ITHS-Lektion3\RepetitionLabb1b\TextFile1.txt";
 
-        public string Run()
-        {
-            string stringFromFile = ReadStringFromFile();
-            return ReverseString(stringFromFile);
-        }
-
-        private string ReadStringFromFile()
+        public string ReadStringFromFile()
         {
             using (StreamReader sr = new StreamReader(FILEPATH))
             {
@@ -23,7 +17,7 @@
                 string? secondLine = sr.ReadLine();
                 if (secondLine is not null) throw new Exception("File contained more than one line");
             
-                return line;
+                return ReverseString(line);
             }
         }
 
