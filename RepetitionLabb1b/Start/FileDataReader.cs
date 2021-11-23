@@ -1,16 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.IO;
-
-namespace RepetitionLabb1b.Start
+﻿namespace RepetitionLabb1b.Start
 {
     public class FileDataReader
     {
         private const string FILEPATH = @"C:\Solutions\ITHS-Lektion3\RepetitionLabb1b\TextFile1.txt";
-        public string ReadStringFromFile()
+
+        public string Run()
+        {
+            string stringFromFile = ReadStringFromFile();
+            return ReverseString(stringFromFile);
+        }
+
+        private string ReadStringFromFile()
         {
             using (StreamReader sr = new StreamReader(FILEPATH))
             {
@@ -27,7 +27,7 @@ namespace RepetitionLabb1b.Start
             }
         }
 
-        public string ReverseString(string stringToReverse)
+        private string ReverseString(string stringToReverse)
         {
             if (stringToReverse is null)
                 throw new ArgumentNullException();
