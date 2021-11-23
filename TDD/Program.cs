@@ -2,4 +2,5 @@
 
 Greeter greeter = new();
 
-Console.WriteLine(greeter.GreetPerson("Dan"));
+string greetingPhrase = greeter.GreetPerson("Dan");
+Console.WriteLine(greetingPhrase);
